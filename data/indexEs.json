@@ -1,0 +1,134 @@
+{
+  "navbar": {
+    "a": "DesarrollandoSoluciones",
+    "links": {
+      "blog": "Blog",
+      "cv": "CV",
+      "aboutMe": "Sobre mí",     
+      "projects": "Proyectos",
+      "home": "Inicio"
+    },
+    "languages": {
+      "es": "ES",
+      "en": "EN"
+    },
+    "theme": "Cambiar tema"
+  },
+  "home": {
+    "h1": "Bienvenidos a este portafolio",
+    "p": "Solucionando sus necesidades tecnológicas |",
+    "a": "Explorar proyectos"
+  },
+  "projects": {
+    "h2": "Proyectos",
+    "projectsAll": {
+      "1": {
+        "img":"",
+        "h5": "Grano&Click",
+        "p": "Aplicación web, proyecto colaborativo sobre una cafeteria",
+        "btn1": {
+          "a": "Ver Demo",
+          "link": "https://roger-la.github.io/Grano-Click/"
+        },
+        "btn2": {
+          "a": "Repositorio",
+          "link": "https://github.com/Roger-LA/Grano-Click/tree/Develop"
+        }
+      },
+      "2": {
+        "img":"",
+        "h5": "Convertidor de Centigrados a Kelvin",
+        "p": "Página web de un convertidor de temperaturas",
+        "btn1": {
+          "a": "Ver Demo",
+          "link": "https://elr1ck13.github.io/CisumStore/"
+        },
+        "btn2": {
+          "a": "Repositorio",
+          "link": "https://github.com/Elr1ck13/CelciusExercise"
+        }
+      },
+      "3": {
+        "img":"",
+        "h5": "CisumStore",
+        "p": "Aplicación web, proyecto de muestra de una e-commerce",
+        "btn1": {
+          "a": "Ver Demo",
+          "link": "https://elr1ck13.github.io/CisumStore/"
+        },
+        "btn2": {
+          "a": "Repositorio",
+          "link": "https://github.com/Elr1ck13/CisumStore"
+        }
+      }
+    }
+  },
+  "aboutMe": {
+    "h2": "sobreMi.js",
+    "code": "// Hola, soy un desarrollador de software \n//  Siempre con actitud proactiva y enfocado a resultados\n//  Acostumbrado a colaborar en equipos multidisciplinarios para enfrentar retos tecnológicos\n// Mi  objetivo es participar en proyectos útiles e innovadores",
+    "a": "Ver CV"
+  },
+  "cv": {
+    "h2": "Currículum Vitae",
+    "education": {
+      "1": {
+        "h5": "Bootcamp Desarrollador Java Full Stack Jr",
+        "p": "Generations, 2025"
+      },
+      "2": {
+        "h5": "Ingeniería en Sistemas Computacionales",
+        "p": "TECNM Querétaro, 2024"
+      }
+    },
+    "skills": {
+      "skills": "habilidades",
+      "1": {
+        "img": "",
+        "span": "HTML/CSS"
+      },
+      "2": {
+        "img": "",
+        "span": "JavaScript"
+      },
+      "3": {
+        "img": "",
+        "span": "Java"
+      },
+      "4": {
+        "img": "",
+        "span": "PHP"
+      },
+      "5": {
+        "img": "",
+        "span": "c#"
+      }
+    }
+  },
+  "blog": {
+    "h2": "Blog",
+    "post": {
+      "1": {
+        "h3": "Reflexión: La importancia de la comprensión lectora en programadores",
+        "date": "Publicado el 30 de noviembre del 20225",
+        "p": "La importancia de la lectura no solo de código para los programadores suelen programar para otros y muchas veces la información de los clientes viene en forma de documentos, por lo que para conocer mejor el cliente y las herramientas de programación, los desarrolladores deben de ser lectores asiduos, ya que la IA no debe aprender por nosotros.",
+        "a": "Leer más"
+      },
+      "2": {
+        "h5": "Habilidades de redacción para un programador",
+        "date": "Publicado el 30 de noviembre del 2025",
+        "p": "Un desarrollador debe de saber redactar textos formales e informales con  el fin de mejorar la transmisión de ideas….",
+        "a": "Leer más"
+      },
+      "3": {
+        "h5": "Cuida tu salud haciendo ejercicio",
+        "date": "Publicado el 30 de noviembre del 20225",
+        "p": "En la vida no todo es código por ello es preciso cuidarnos y realizar al menos media hora de ejercicio al dia.",
+        "a": "Leer más"
+      }
+    }
+  },
+  "footer": {
+    "p": " 2025 sin copyright el conocimiento debe de ser libre",
+    "quote": "<hay que imaginar a Sísifo feliz >"
+  }
+}

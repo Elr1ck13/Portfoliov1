@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Space+Grotesk:wght@500&family=IBM+Plex+Sans:wght@400&display=swap');
+
+html {
+  --bg-color: #121212;
+  --btn-color: #3A86FF;
+  --hg-color: rgb(89, 89, 229); /*  #FFBE0B */
+  --text-color: #E0E0E0;
+  --first-font: 'Space Grotesk', sans-serif ;
+  --second-font: 'Sora', sans-serif ;
+  --third-font: 'IBM Plex Sans', sans-serif;
+
+  body{
+    padding-top: 3.5rem;
+  }
+}
+
+.navBar {
+  background-color: var(--bg-color);
+  font-family: var(--first-font);
+  border-bottom: 0.125rem solid var(--hg-color);
+}
+.navbar-brand {
+  font-family: var(--second-font);
+  color: var(--hg-color) !important;
+  letter-spacing: 0.05rem;
+  font-size: 1.25rem;
+}
+.navLinks {
+  font-family: var(--third-font);
+  color: var(--hg-color) !important;
+  margin-left: 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  font-size: 1rem;
+}
+
+.navLinks:hover {
+  color: var(--btn-color) !important;
+  border-bottom: 0.15rem solid var(--btn-color);
+}
+.language{
+  margin-left: 1rem;
+}
+
+/* ot necessary now  
+.navLinks.active {
+  color: var(--hg-color) !important;
+  border-bottom: 0.15rem solid var(--hg-color);
+} */
+
+.home {
+  height: 30rem;
+  background: linear-gradient(135deg, var(--bg-color) 0%, #1c1c1c 100%);
+  color: var(--text-color);
+  font-family: var(--third-font);
+}
+
+#homeTitle {
+  font-family: var(--second-font);
+  font-size: 2.5rem;
+  color: var(--hg-color);
+}
+
+#homeSubtitle {
+  font-family: var(--first-font);
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+
+#projects{
+  background-color: var(--bg-color);
+  #showProyects{
+    justify-content: center;
+  }
+
+}
+.projectCard {
+  background-color: #1c1c1c;
+  width: 18rem;
+  justify-content: center;
+  text-align: center;
+  border: 0.125rem solid var(--btn-color);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 2rem blue;
+}
+
+.cardImgCont {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImgTop {
+  transition: transform 0.5s ease;
+}
+
+.projectCard:hover {
+  .cardImgTop{
+    transform: scale(1.05);
+  }
+  .card-overlay{
+    opacity: 1;
+  }
+}
+
+.cardOverlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, transparent, rgba(18,18,18,0.9));
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+} 
+
+.cardText {
+  font-family: var(--third-font);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+#aboutMe {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--third-font);
+  animation: fadeInEffect 1s ease-in;
+}
+
+.codeBlock {
+  background-color: #1c1c1c;
+  border: 0.125rem solid var(--btn-color);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  color: var(--text-color);
+  position: relative;
+}
+
+#cv {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--third-font);
+  animation: fadeInEffect 1s ease-in;
+}
+
+.cvCard {
+  background-color: #1c1c1c;
+  border: 0.125rem solid var(--btn-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.cvCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.75rem 1.5rem blue;
+}
+
+.skills {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: conic-gradient(var(--btn-color) calc(var(--percent) * 1%), #2a2a2a 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--first-font);
+  font-size: 1rem;
+  color: var(--text-color);
+  transition: transform 0.3s ease;
+}
+
+.skills:hover {
+  transform: scale(1.1);
+}
+
+.skillsLabel {
+  position: absolute;
+  bottom: -1.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--hg-color);
+}
+#blog {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--third-font);
+  animation: fadeInEffect 1s ease-in;
+}
+
+.blogCard {
+  background-color: #1c1c1c;
+  border: 0.125rem solid var(--btn-color);
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.blogCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 2rem blue;
+}
+
+.feat {
+  border: 0.125rem solid var(--hg-color);
+  background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+}
+
+.published {
+  font-size: 0.875rem;
+  color: var(--btn-color);
+  margin-bottom: 0.5rem;
+}
+
+
+#foot {
+  background-color: var(--bg-color);
+  border-top: 0.125rem solid var(--btn-color);
+  font-family: var(--third-font);
+  animation: fadeInEffect 1s ease-in;
+}
+
+.footText {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.footSub{
+  font-family: var(--first-font);
+  font-size: 0.875rem;
+  color: var(--hg-color);
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.footSub:hover {
+  transform: scale(1.05);
+  color: var(--btn-color);
+}
+
+/* titles */
+.firsTitle {
+  font-family: var(--first-font);
+  font-size: 1.25rem;
+  color: var(--hg-color);
+
+}
+
+.secondTitle{
+  font-family: var(--second-font);
+  font-size: 2rem;
+  color: var(--hg-color);
+}
+
+
+/* btns */
+
+.btn-primary {
+  background-color: var(--btn-color);
+  border: none;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--hg-color);
+  color: var(--bg-color);
+  transform: scale(1.05);
+}
+
+.btn-outline-light {
+  border: 0.125rem solid var(--text-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  transform: scale(1.05);
+}
+
+/* Animations*/
+@keyframes fadeInEffect {
+  from { opacity: 0; transform: translateY(1rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cursorEffect {
+  display: inline-block;
+  width: 0.5rem;
+  background-color: var(--btn-color);
+  animation: blinkEffect 1s infinite;
+}
+
+@keyframes blinkEffect {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}

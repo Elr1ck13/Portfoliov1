@@ -1,0 +1,134 @@
+{
+  "navbar": {
+    "a": "DesarrollandoSoluciones",
+    "links": {
+      "blog": "Blog",
+      "cv": "CV",
+      "aboutMe": "About me",     
+      "projects": "Projects",
+      "home": "Home"
+    },
+    "languages": {
+      "es": "ES",
+      "en": "EN"
+    },
+    "theme": "Change language"
+  },
+  "home": {
+    "h1": "Welcome to this portfolio",
+    "p": "Solving your technological needs |",
+    "a": "Explore projects"
+  },
+  "projects": {
+    "h2": "Projects",
+    "projectsAll": {
+      "1": {
+        "img":"",
+        "h5": "Grano&Click",
+        "p": "Web application, collaborative project about a coffee shop.",
+        "btn1": {
+          "a": "View demo",
+          "link": "https://roger-la.github.io/Grano-Click/"
+        },
+        "btn2": {
+          "a": "Repository",
+          "link": "https://github.com/Roger-LA/Grano-Click/tree/Develop"
+        }
+      },
+      "2": {
+        "img":"",
+        "h5": "Centigrade to Kelvin Converter.",
+        "p": "Website for a temperature converter.",
+        "btn1": {
+          "a": "View demo",
+          "link": "https://elr1ck13.github.io/CisumStore/"
+        },
+        "btn2": {
+          "a": "Repository",
+          "link": "https://github.com/Elr1ck13/CelciusExercise"
+        }
+      },
+      "3": {
+        "img":"",
+        "h5": "CisumStore",
+        "p": "Web application, sample e-commerce project.",
+        "btn1": {
+          "a": "View demo",
+          "link": "https://elr1ck13.github.io/CisumStore/"
+        },
+        "btn2": {
+          "a": "Repository",
+          "link": "https://github.com/Elr1ck13/CisumStore"
+        }
+      }
+    }
+  },
+  "aboutMe": {
+    "h2": "aboutMe.js",
+    "code": "// Hello, I am a software developer \n//  Always proactive and results-oriented\n//  Accustomed to collaborating in multidisciplinary teams to tackle technological challenges\n// My  goal is to participate in useful and innovative projects",
+    "a": "Ver CV"
+  },
+  "cv": {
+    "h2": "Currículum Vitae",
+    "education": {
+      "1": {
+        "h5": "Bootcamp Desarrollador Java Full Stack Jr",
+        "p": "Generations, 2025"
+      },
+      "2": {
+        "h5": "Computer Systems Engineering",
+        "p": "TECNM Querétaro, 2024"
+      }
+    },
+    "skills": {
+      "skills": "Skills",
+      "1": {
+        "img": "",
+        "span": "HTML/CSS"
+      },
+      "2": {
+        "img": "",
+        "span": "JavaScript"
+      },
+      "3": {
+        "img": "",
+        "span": "Java"
+      },
+      "4": {
+        "img": "",
+        "span": "PHP"
+      },
+      "5": {
+        "img": "",
+        "span": "c#"
+      }
+    }
+  },
+  "blog": {
+    "h2": "Blog",
+    "post": {
+      "1": {
+        "h3": "Reflection: The importance of reading comprehension for programmers.",
+        "date": "Published on November 30, 2025.",
+        "p": "The importance of reading more than just code for programmers. Programmers often program for others, and client information often comes in the form of documents. Therefore, in order to better understand the client and programming tools, developers must be avid readers, as AI should not learn for us.",
+        "a": "Read more"
+      },
+      "2": {
+        "h5": "Writing skills for a programmer.",
+        "date": "Published on November 30, 2025.",
+        "p": "A developer must know how to write formal and informal texts in order to improve the transmission of ideas....",
+        "a": "Read more"
+      },
+      "3": {
+        "h5": "Take care of your health by exercising.",
+        "date": "Published on November 30, 2025.",
+        "p": "Life isn't all about code, so we need to take care of ourselves and exercise for at least half an hour every day.",
+        "a": "Read more"
+      }
+    }
+  },
+  "footer": {
+    "p": "2025 without copyright, knowledge must be free.",
+    "quote": "<We must imagine Sisyphus happy>"
+  }
+}
