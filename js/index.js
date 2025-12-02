@@ -246,7 +246,7 @@ async function loadBylanguage(lang) {
       jsonRoute = "../indexEn.json";
       break;
     default:
-      jsonRoute = "./indexEn.json";
+      jsonRoute = "../indexEs.json";
       break;
   }
   const data = await getJson(jsonRoute);
