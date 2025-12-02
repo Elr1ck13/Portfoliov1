@@ -244,7 +244,7 @@ async function loadBylanguage(lang) {
       jsonRoute = "./data/indexEs.json";
       break;
     case "en":
-      jsonRoute = "../data/indexEn.json";
+      jsonRoute = "./data/indexEn.json";
       break;
     default:
       jsonRoute = "./data/indexEs.json";
