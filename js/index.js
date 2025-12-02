@@ -241,13 +241,13 @@ async function loadBylanguage(lang) {
   let jsonRoute;
   switch (lang) {
     case "es":
-      jsonRoute = "./indexEs.json";
+      jsonRoute = "../data/indexEs.json";
       break;
     case "en":
-      jsonRoute = "../indexEn.json";
+      jsonRoute = "../data/indexEn.json";
       break;
     default:
-      jsonRoute = "../indexEs.json";
+      jsonRoute = "../data/indexEs.json";
       break;
   }
   console.log(jsonRoute);
@@ -256,6 +256,7 @@ async function loadBylanguage(lang) {
 
 window.addEventListener("load", function (event) {
   const lang = navigator.language || navigator.userLanguage;
+  console.log(lang)
   loadBylanguage(lang);
   document.documentElement.style.setProperty("--bg-color", "#121212");
 
