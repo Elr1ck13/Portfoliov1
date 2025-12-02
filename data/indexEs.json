@@ -23,7 +23,7 @@
     "h2": "Proyectos",
     "projectsAll": {
       "1": {
-        "img":"../assets/granoclick.png",
+        "img":"./assets/granoclick.png",
         "h5": "Grano&Click",
         "p": "Aplicación web, proyecto colaborativo sobre una cafeteria",
         "btn1": {
@@ -36,7 +36,7 @@
         }
       },
       "2": {
-        "img":"../assets/celcius.png",
+        "img":"./assets/celcius.png",
         "h5": "Convertidor de Centigrados a Kelvin",
         "p": "Página web de un convertidor de temperaturas",
         "btn1": {
@@ -49,7 +49,7 @@
         }
       },
       "3": {
-        "img":"../assets/cisum.png",
+        "img":"./assets/cisum.png",
         "h5": "CisumStore",
         "p": "Aplicación web, proyecto de muestra de una e-commerce",
         "btn1": {
@@ -83,23 +83,23 @@
     "skillTitle":"Habilidades técnicas",
     "skillList": {
       "1": {
-        "img": "../assets/html5.png",
+        "img": "./assets/html5.png",
         "span": "HTML/CSS"
       },
       "2": {
-        "img": "../assets/js.png",
+        "img": "./assets/js.png",
         "span": "JavaScript"
       },
       "3": {
-        "img": "../assets/java.png",
+        "img": "./assets/java.png",
         "span": "Java"
       },
       "4": {
-        "img": "../assets/phplogo.png",
+        "img": "./assets/phplogo.png",
         "span": "PHP"
       },
       "5": {
-        "img": "../assets/cs.png",
+        "img": "./assets/cs.png",
         "span": "C#"
       }
     }
@@ -114,14 +114,14 @@
         "a": "Leer más"
       },
       "2": {
-        "img":"../assets/writing.jpg",
+        "img":"./assets/writing.jpg",
         "h5": "Habilidades de redacción para un programador",
         "date": "Publicado el 30 de noviembre del 2025",
         "p": "Un desarrollador debe de saber redactar textos formales e informales con  el fin de mejorar la transmisión de ideas….",
         "a": "Leer más"
       },
       "3": {
-        "img":"../assets/exercise.jpg",
+        "img":"./assets/exercise.jpg",
         "h5": "Cuida tu salud haciendo ejercicio",
         "date": "Publicado el 30 de noviembre del 20225",
         "p": "En la vida no todo es código por ello es preciso cuidarnos y realizar al menos media hora de ejercicio al dia.",
