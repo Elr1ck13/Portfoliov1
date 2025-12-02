@@ -191,7 +191,6 @@ function buildHome(data) {
 }
 
 function createNavbar(data) {
-  console.log("hool");
   for (const [key, value] of Object.entries(data["navbar"]["links"])) {
     let link = `
     <li class="nav-item"><a class="navLinks" href="#${key}">${value}</a></li>
@@ -217,7 +216,6 @@ function createNavbar(data) {
 
 async function getJson(route) {
   try {
-    console.log(route);
     const answer = await fetch(route);
     if (!answer.ok) {
       throw new Error("Json load error");
@@ -230,7 +228,6 @@ async function getJson(route) {
     buildCV(data);
     buildBlog(data);
     buildFooter(data);
-    //console.log('Contenido del JSON:', data);
     return data;
   } catch (error) {
     console.error(error);
@@ -250,13 +247,12 @@ async function loadBylanguage(lang) {
       jsonRoute = "./data/indexEs.json";
       break;
   }
-  console.log(jsonRoute);
+
   const data = await getJson(jsonRoute);
 }
 
 window.addEventListener("load", function (event) {
   const lang = navigator.language || navigator.userLanguage;
-  console.log(lang)
   loadBylanguage(lang);
   document.documentElement.style.setProperty("--bg-color", "#121212");
 
