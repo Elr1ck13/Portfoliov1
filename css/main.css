@@ -2,14 +2,18 @@
 
 html {
   --bg-color: #121212;
-  --btn-color: #3A86FF;
-  --hg-color: rgb(89, 89, 229); /*  #FFBE0B */
+  --bg-secondary:#1c1c1c;
+  --btn-color: #264473;
+  --hg-color: #3A86FF; /*  #FFBE0B */
   --text-color: #E0E0E0;
+  --box-shadow-color:#0000FF;
   --first-font: 'Space Grotesk', sans-serif ;
   --second-font: 'Sora', sans-serif ;
   --third-font: 'IBM Plex Sans', sans-serif;
 
+
   body{
+    background-color: var(--bg-color);
     padding-top: 3.5rem;
   }
 }
@@ -40,8 +44,13 @@ html {
 .language{
   margin-left: 1rem;
 }
+.navbar-toggler {
 
-/* ot necessary now  
+  background:var(--btn-color);
+  padding: .5em 1em;
+}
+
+/* not necessary now  
 .navLinks.active {
   color: var(--hg-color) !important;
   border-bottom: 0.15rem solid var(--hg-color);
@@ -49,7 +58,7 @@ html {
 
 .home {
   height: 30rem;
-  background: linear-gradient(135deg, var(--bg-color) 0%, #1c1c1c 100%);
+  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-secondary) 100%);
   color: var(--text-color);
   font-family: var(--third-font);
 }
@@ -69,25 +78,33 @@ html {
 
 #projects{
   background-color: var(--bg-color);
+   justify-content: center;
   #showProyects{
-    justify-content: center;
+   justify-content: center;
+    margin: 1rem;
+       
   }
 
 }
 .projectCard {
-  background-color: #1c1c1c;
-  width: 18rem;
+  background-color: var(--bg-secondary);
+  width: 28rem;
   justify-content: center;
   text-align: center;
   border: 0.125rem solid var(--btn-color);
   border-radius: 0.75rem;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  img{
+    height: 10rem; 
+    width: 30rem;
+    object-fit:cover; 
+  }
 }
 
 .projectCard:hover {
   transform: translateY(-0.5rem);
-  box-shadow: 0 1rem 2rem blue;
+  box-shadow: 0 1rem 2rem var(--box-shadow-color);
 }
 
 .cardImgCont {
@@ -113,7 +130,7 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg, transparent, rgba(18,18,18,0.9));
+  background: linear-gradient(180deg, transparent,var(--bg-secondary));
   padding: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -134,7 +151,7 @@ html {
 }
 
 .codeBlock {
-  background-color: #1c1c1c;
+  background-color: var(--bg-secondary);
   border: 0.125rem solid var(--btn-color);
   font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
@@ -150,7 +167,7 @@ html {
 }
 
 .cvCard {
-  background-color: #1c1c1c;
+  background-color: var(--bg-secondary);
   border: 0.125rem solid var(--btn-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-size: 1rem;
@@ -159,7 +176,7 @@ html {
 
 .cvCard:hover {
   transform: translateY(-0.5rem);
-  box-shadow: 0 0.75rem 1.5rem blue;
+  box-shadow: 0 0.75rem 1.5rem var(--box-shadow-color);
 }
 
 .skills {
@@ -167,7 +184,7 @@ html {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  background: conic-gradient(var(--btn-color) calc(var(--percent) * 1%), #2a2a2a 0);
+  background: conic-gradient(var(--btn-color) calc(var(--percent) * 1%), var(--bg-secondary) 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,6 +192,12 @@ html {
   font-size: 1rem;
   color: var(--text-color);
   transition: transform 0.3s ease;
+
+  img{
+    object-fit: contain;
+    width: auto;
+    height: 5rem;
+  }
 }
 
 .skills:hover {
@@ -197,7 +220,7 @@ html {
 }
 
 .blogCard {
-  background-color: #1c1c1c;
+  background-color: var(--bg-secondary);
   border: 0.125rem solid var(--btn-color);
   border-radius: 0.75rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -208,12 +231,12 @@ html {
 
 .blogCard:hover {
   transform: translateY(-0.5rem);
-  box-shadow: 0 1rem 2rem blue;
+  box-shadow: 0 1rem 2rem var(--box-shadow-color);
 }
 
 .feat {
   border: 0.125rem solid var(--hg-color);
-  background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-secondary));
 }
 
 .published {

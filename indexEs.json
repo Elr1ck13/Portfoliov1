@@ -16,14 +16,14 @@
   },
   "home": {
     "h1": "Bienvenidos a este portafolio",
-    "p": "Solucionando sus necesidades tecnológicas |",
+    "p": "Solucionando sus necesidades tecnológicas ",
     "a": "Explorar proyectos"
   },
   "projects": {
     "h2": "Proyectos",
     "projectsAll": {
       "1": {
-        "img":"",
+        "img":"../assets/granoclick.png",
         "h5": "Grano&Click",
         "p": "Aplicación web, proyecto colaborativo sobre una cafeteria",
         "btn1": {
@@ -36,7 +36,7 @@
         }
       },
       "2": {
-        "img":"",
+        "img":"../assets/celcius.png",
         "h5": "Convertidor de Centigrados a Kelvin",
         "p": "Página web de un convertidor de temperaturas",
         "btn1": {
@@ -49,7 +49,7 @@
         }
       },
       "3": {
-        "img":"",
+        "img":"../assets/cisum.png",
         "h5": "CisumStore",
         "p": "Aplicación web, proyecto de muestra de una e-commerce",
         "btn1": {
@@ -65,7 +65,7 @@
   },
   "aboutMe": {
     "h2": "sobreMi.js",
-    "code": "// Hola, soy un desarrollador de software \n//  Siempre con actitud proactiva y enfocado a resultados\n//  Acostumbrado a colaborar en equipos multidisciplinarios para enfrentar retos tecnológicos\n// Mi  objetivo es participar en proyectos útiles e innovadores",
+    "code": "\n// Hola, soy un desarrollador de software \n//  Siempre con actitud proactiva y enfocado a resultados\n//  Acostumbrado a colaborar en equipos multidisciplinarios para enfrentar retos tecnológicos\n// Mi  objetivo es participar en proyectos útiles e innovadores",
     "a": "Ver CV"
   },
   "cv": {
@@ -80,27 +80,27 @@
         "p": "TECNM Querétaro, 2024"
       }
     },
-    "skills": {
-      "skills": "habilidades",
+    "skillTitle":"Habilidades técnicas",
+    "skillList": {
       "1": {
-        "img": "",
+        "img": "../assets/html5.png",
         "span": "HTML/CSS"
       },
       "2": {
-        "img": "",
+        "img": "../assets/js.png",
         "span": "JavaScript"
       },
       "3": {
-        "img": "",
+        "img": "../assets/java.png",
         "span": "Java"
       },
       "4": {
-        "img": "",
+        "img": "../assets/phplogo.png",
         "span": "PHP"
       },
       "5": {
-        "img": "",
-        "span": "c#"
+        "img": "../assets/cs.png",
+        "span": "C#"
       }
     }
   },
@@ -114,12 +114,14 @@
         "a": "Leer más"
       },
       "2": {
+        "img":"../assets/writing.jpg",
         "h5": "Habilidades de redacción para un programador",
         "date": "Publicado el 30 de noviembre del 2025",
         "p": "Un desarrollador debe de saber redactar textos formales e informales con  el fin de mejorar la transmisión de ideas….",
         "a": "Leer más"
       },
       "3": {
+        "img":"../assets/exercise.jpg",
         "h5": "Cuida tu salud haciendo ejercicio",
         "date": "Publicado el 30 de noviembre del 20225",
         "p": "En la vida no todo es código por ello es preciso cuidarnos y realizar al menos media hora de ejercicio al dia.",
@@ -129,6 +131,6 @@
   },
   "footer": {
     "p": " 2025 sin copyright el conocimiento debe de ser libre",
-    "quote": "<hay que imaginar a Sísifo feliz >"
+    "quote": "hay que imaginar a Sísifo feliz"
   }
 }

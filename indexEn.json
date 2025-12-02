@@ -12,18 +12,18 @@
       "es": "ES",
       "en": "EN"
     },
-    "theme": "Change language"
+    "theme": "Change theme"
   },
   "home": {
     "h1": "Welcome to this portfolio",
-    "p": "Solving your technological needs |",
+    "p": "Solving your technological needs ",
     "a": "Explore projects"
   },
   "projects": {
     "h2": "Projects",
     "projectsAll": {
       "1": {
-        "img":"",
+        "img":"../assets/granoclick.png",
         "h5": "Grano&Click",
         "p": "Web application, collaborative project about a coffee shop.",
         "btn1": {
@@ -36,7 +36,7 @@
         }
       },
       "2": {
-        "img":"",
+        "img":"../assets/celcius.png",
         "h5": "Centigrade to Kelvin Converter.",
         "p": "Website for a temperature converter.",
         "btn1": {
@@ -49,7 +49,7 @@
         }
       },
       "3": {
-        "img":"",
+        "img":"../assets/cisum.png",
         "h5": "CisumStore",
         "p": "Web application, sample e-commerce project.",
         "btn1": {
@@ -65,14 +65,14 @@
   },
   "aboutMe": {
     "h2": "aboutMe.js",
-    "code": "// Hello, I am a software developer \n//  Always proactive and results-oriented\n//  Accustomed to collaborating in multidisciplinary teams to tackle technological challenges\n// My  goal is to participate in useful and innovative projects",
-    "a": "Ver CV"
+    "code": "\n//Hello, I am a software developer \n//Always proactive and results-oriented\n//Accustomed to collaborating in multidisciplinary teams to tackle technological challenges\n//My  goal is to participate in useful and innovative projects",
+    "a": "View CV"
   },
   "cv": {
     "h2": "Currículum Vitae",
     "education": {
       "1": {
-        "h5": "Bootcamp Desarrollador Java Full Stack Jr",
+        "h5": "Junior Full Stack Java Developer Bootcamp",
         "p": "Generations, 2025"
       },
       "2": {
@@ -80,27 +80,27 @@
         "p": "TECNM Querétaro, 2024"
       }
     },
-    "skills": {
-      "skills": "Skills",
+    "skillTitle":"Technical skills",
+    "skillList": {
       "1": {
-        "img": "",
+        "img": "../assets/html5.png",
         "span": "HTML/CSS"
       },
       "2": {
-        "img": "",
+        "img": "../assets/js.png",
         "span": "JavaScript"
       },
       "3": {
-        "img": "",
+        "img": "../assets/java.png",
         "span": "Java"
       },
       "4": {
-        "img": "",
+        "img": "../assets/phplogo.png",
         "span": "PHP"
       },
       "5": {
-        "img": "",
-        "span": "c#"
+        "img": "../assets/cs.png",
+        "span": "C#"
       }
     }
   },
@@ -114,12 +114,14 @@
         "a": "Read more"
       },
       "2": {
+        "img":"../assets/writing.jpg",
         "h5": "Writing skills for a programmer.",
         "date": "Published on November 30, 2025.",
         "p": "A developer must know how to write formal and informal texts in order to improve the transmission of ideas....",
         "a": "Read more"
       },
       "3": {
+        "img":"../assets/exercise.jpg",
         "h5": "Take care of your health by exercising.",
         "date": "Published on November 30, 2025.",
         "p": "Life isn't all about code, so we need to take care of ourselves and exercise for at least half an hour every day.",
@@ -129,6 +131,6 @@
   },
   "footer": {
     "p": "2025 without copyright, knowledge must be free.",
-    "quote": "<We must imagine Sisyphus happy>"
+    "quote": "We must imagine Sisyphus happy"
   }
 }
