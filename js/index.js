@@ -217,6 +217,7 @@ function createNavbar(data) {
 
 async function getJson(route) {
   try {
+    console.log(route);
     const answer = await fetch(route);
     if (!answer.ok) {
       throw new Error("Json load error");
@@ -240,7 +241,7 @@ async function loadBylanguage(lang) {
   let jsonRoute;
   switch (lang) {
     case "es":
-      jsonRoute = "../indexEs.json";
+      jsonRoute = "./indexEs.json";
       break;
     case "en":
       jsonRoute = "../indexEn.json";
@@ -249,6 +250,7 @@ async function loadBylanguage(lang) {
       jsonRoute = "../indexEs.json";
       break;
   }
+  console.log(jsonRoute);
   const data = await getJson(jsonRoute);
 }
 
